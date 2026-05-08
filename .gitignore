@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archives
+*.zip
+*.rar
+
+# PowerBI files (binary)
+*.pbix
+
+# Tableau workbooks (binary)
+*.twb
+
+# Preprocessed CSV splits (regenerated from main data)
+X_train.csv
+X_test.csv
+y_train.csv
+y_test.csv
+
+# PDF files
+*.pdf
+
+# PPT files (too large, not code)
+*.pptx
