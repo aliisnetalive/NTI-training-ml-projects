@@ -31,9 +31,7 @@ nti-training/
 │
 └── solo-project/                                # HR Employee Attrition
     ├── notebook/
-    │   ├── final_HR_analytics.ipynb             # Full EDA & modeling pipeline
-    │   ├── final_hr.ipynb                       # Earlier version
-    │   └── final_hr_final.ipynb                 # Final version with all 11 models
+    │   └── final_HR_analytics.ipynb             # Full EDA & modeling pipeline (11 models)
     ├── src/
     │   └── final_hr.py                          # Standalone Python script version
     ├── data/
@@ -173,7 +171,7 @@ Open `project-team/notebook/Telecom_Churn.ipynb` in Jupyter and run all cells. T
 
 ### Running the HR Attrition Project
 
-Open `solo-project/notebook/final_hr_final.ipynb` in Jupyter or Google Colab and run all cells. The data file is in `solo-project/data/`. Alternatively, run the standalone Python script:
+Open `solo-project/notebook/final_HR_analytics.ipynb` in Jupyter or Google Colab and run all cells. The data file is in `solo-project/data/`. Alternatively, run the standalone Python script:
 
 ```bash
 cd solo-project
